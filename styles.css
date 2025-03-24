@@ -1,0 +1,14 @@
+body {  
+    background-color: #f0f0f0; /* Color de fondo */  
+    font-family: Arial, sans-serif; /* Tipo de letra */  
+    text-align: center; /* Centrar el texto */  
+}  
+
+h1 {  
+    color: #3498db; /* Color del encabezado */  
+    margin-top: 50px; /* Espaciado superior */  
+}  
+
+p {  
+    color: #333; /* Color del texto del párrafo */  
+}  
