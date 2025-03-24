@@ -1,14 +1,35 @@
 body {  
     background-color: #f0f0f0; /* Color de fondo */  
-    font-family: Arial, sans-serif; /* Tipo de letra */  
+    font-family: 'Arial', sans-serif; /* Tipo de letra */  
     text-align: center; /* Centrar el texto */  
+    margin: 0; /* Eliminar márgenes por defecto */  
+    padding: 20px; /* Espaciado alrededor del contenido */  
 }  
 
 h1 {  
     color: #3498db; /* Color del encabezado */  
     margin-top: 50px; /* Espaciado superior */  
+    font-size: 2.5em; /* Aumentar el tamaño de la fuente */  
 }  
 
 p {  
     color: #333; /* Color del texto del párrafo */  
+    font-size: 1.2em; /* Aumentar el tamaño de la fuente */  
+    margin-top: 20px; /* Agregar espaciado superior */  
+}  
+
+/* Estilo para un botón */  
+button {  
+    background-color: #3498db; /* Color de fondo del botón */  
+    color: white; /* Color del texto */  
+    border: none; /* Sin bordes */  
+    padding: 10px 20px; /* Espaciado interno */  
+    font-size: 1em; /* Tamaño de fuente */  
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */  
+    border-radius: 5px; /* Bordes redondeados */  
+    margin-top: 20px; /* Espaciado superior */  
+}  
+
+button:hover {  
+    background-color: #2980b9; /* Cambiar color al pasar el mouse */  
 }  
